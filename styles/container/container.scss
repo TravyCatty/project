@@ -5,7 +5,7 @@
 
     .meet-box {
         // .meet-box__title
-        background-image: url(/project/images/container-bg-1.jpg);
+        background-image: url(/images/container-bg-1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
@@ -175,6 +175,71 @@
             font-weight: 500;
             margin: 0;
             padding: 0;
+        }
+    }
+    .slider {
+        display: grid;
+        grid-template-columns: minmax(400px, 52.5rem) minmax(400px, 52.5rem);
+        gap: 2rem;
+    }
+    .discount {
+        margin-top: 8.75rem;
+        // .discount-slider
+
+        &-slider {
+        }
+    }
+    .card {
+        cursor: pointer;
+
+    }
+    .card__img {
+        width: 100%;
+        object-fit: cover;
+        display: grid;
+        place-items: center;
+        height: 100%;
+        max-height: 28.375rem;
+    }
+    .card__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin-top: 1.375rem;
+    }
+    .card__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    .card__title {
+        max-width: 15rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+    }
+    .card__subtitle {
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: #949494;
+
+        margin-top: 5px;
+        padding: 0;
+    }
+    .card__price {
+        font-size: 1.125rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+    }
+
+    .discount-slider {
+        // .discount-slider__card
+
+        &__card {
         }
     }
 }

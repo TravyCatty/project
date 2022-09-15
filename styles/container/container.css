@@ -3,7 +3,7 @@
   height: 100vh;
 }
 .container .meet-box {
-  background-image: url(/project/images/container-bg-1.jpg);
+  background-image: url(/images/container-bg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -147,6 +147,58 @@
   padding: 0;
 }
 .container .box .card__price {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.container .slider {
+  display: grid;
+  grid-template-columns: minmax(400px, 52.5rem) minmax(400px, 52.5rem);
+  gap: 2rem;
+}
+.container .discount {
+  margin-top: 8.75rem;
+}
+.container .card {
+  cursor: pointer;
+}
+.container .card__img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  max-height: 28.375rem;
+}
+.container .card__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1.375rem;
+}
+.container .card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.container .card__title {
+  max-width: 15rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.container .card__subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #949494;
+  margin-top: 5px;
+  padding: 0;
+}
+.container .card__price {
   font-size: 1.125rem;
   font-weight: 500;
   margin: 0;
