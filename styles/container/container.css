@@ -38,7 +38,11 @@
 .container .list__link:hover {
   text-decoration: underline;
 }
+.container .hide-left {
+  transform: translateX(-200%);
+}
 .container .sales {
+  transition: 0.5s;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -72,14 +76,23 @@
   cursor: pointer;
 }
 .container .buttons .btn-later {
+  transition: 0.15s;
   background: #eee;
   color: #000;
 }
+.container .buttons .btn-later:hover {
+  background: rgb(187, 187, 187);
+}
 .container .buttons .btn-watch {
+  transition: 0.15s;
   background: #000;
   color: #eee;
 }
+.container .buttons .btn-watch:hover {
+  background: #333;
+}
 .container .popular {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
 }

@@ -44,8 +44,11 @@
             }
         }
     }
-
+.hide-left {
+    transform: translateX(-200%);
+}
     .sales {
+        transition: .5s;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -84,19 +87,28 @@
 
             // .btn-later
             &-later {
+                transition: 0.15s;
                 background: #eee;
                 color: #000;
+                &:hover {
+                    background: rgb(187, 187, 187);
+                }
             }
 
             // .btn-watch
             &-watch {
+                transition: 0.15s;
                 background: #000;
                 color: #eee;
+                &:hover {
+                    background: #333;
+                }
             }
         }
     }
 
     .popular {
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
     }
@@ -191,7 +203,6 @@
     }
     .card {
         cursor: pointer;
-
     }
     .card__img {
         width: 100%;
