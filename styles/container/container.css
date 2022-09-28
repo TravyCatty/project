@@ -261,4 +261,15 @@
   padding: 1rem 2rem;
   border-radius: 50px;
   cursor: pointer;
+}
+.container .follow {
+  background: url(/images/follow.jpg);
+  width: 100%;
+  height: 100%;
+  max-height: 430px;
+}
+.container .follow__title {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #fff;
 }/*# sourceMappingURL=container.css.map */
