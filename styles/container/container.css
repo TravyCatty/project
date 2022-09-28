@@ -3,7 +3,7 @@
   height: 100vh;
 }
 .container .meet-box {
-  background-image: url(/images/container-bg-1.jpg);
+  background: url(/images/container-bg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
